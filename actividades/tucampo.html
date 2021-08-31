@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
 <title>tu campo</title>
+<link rel="stylesheet" type="text/css" href="normalize.css">
 <style type="text/css">
-    body { font-size: 80%; font-family: "Courier New", Courier, monospace; letter-spacing: 0.15em; background-color: #0d9416;}
- #page { max-width: 940px; min-width: 720px; margin: 10px auto 10px auto; padding: 20px; border: 4px double rgb(214, 79, 16);
-     background-color: #ffffff;}
-     h1 {text-overflow: unset;  padding: 20px;
-line-height: 3em; font-size:"7";}
-#logo {width: 150px;
-margin: 10px auto 25px auto;}
+ h1 {text-overflow: unset;  padding: 20px; line-height: 3em; font-size:30px;}
+#navigation { width: 570px; padding: 15px; margin: 0px auto 0px auto;   text-align: center;}
+#contenedor {text-align: left; padding:0px; margin:0px;}
+   li  { display: inline; margin: 0px 3px;}
+    body { font-size: 100%; font-family: "Courier New", Courier, monospace; letter-spacing: 0.15em; background-color: #b1beb1}
+    #im {position:relative; right:100;padding: 150px;}
+    
 </style>
 </head>
+
+
 <body>
-    <div style="width:450">
-        <h1><img src="./images/tucampo.jpeg"alt="bird"
-            width="130" height="100" align="left"/>tu campo</h1><hr />
-<div id="page">
-<div id="logo">
-<img src="images/tucampo.jpeg" alt="Tu campo" width="70" height="40" align="left"/>
+    <div >
+        <h1><img src="./images/tucampo.jpeg"alt=""
+            width="130" height="100" align="left"/><strong>TU CAMPO</strong></h1>
+        
+        <p id="u">
+            <ul id="contenedor">
+                <li><a href="#" class="on">CATEGORIAS</a></li>
+            </ul>
+            <ul id="navigation">
+                
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">VENDER</a></li>
+                <li><a href="#">COMPRAR</a></li>
+                <li><a href="#">AYUDA</a></li>
+                </ul>
+            </p>
+              
+                <hr />
+        </div>
+            </body>
+    <form  action="http://www.example.com/profile.php">
+        <select name="devices">
+            <option value="">frutas</option>
+            <option value="">verduras</option>
+            <option value="">legumbres</option>
+        </select>
+    </form>
+</div>
+<hr />
+<div id="im">
+<a href="#"><img src="images/frr.jpg" alt="frutas"   width="500" height="333" /></a>
+<a href="#"><img src="images/ver.jpg" alt="verduras" /></a>
+
 </div>
 </body>
 </html>
